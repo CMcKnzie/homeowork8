@@ -14,7 +14,7 @@ onMounted(async () => {
 </script>
 
 <template>
-<BaseTitle>Trivia Application- <MainScore></MainScore></BaseTitle>
+<BaseTitle>Trivia Application - <MainScore></MainScore></BaseTitle>
 
 <div class="text-slate-700 grid flex-grow grid-cols-4 gap-12 m-20">
 <RouterLink v-for="category in categories" :key ="category.id"
